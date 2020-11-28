@@ -1,0 +1,7 @@
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\bin\Debug\Gissa tal.exe.config
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\bin\Debug\Gissa tal.exe
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\bin\Debug\Gissa tal.pdb
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\obj\Debug\Gissa tal.csprojAssemblyReference.cache
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\obj\Debug\Gissa tal.csproj.CoreCompileInputs.cache
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\obj\Debug\Gissa tal.exe
+C:\Users\idsp03001\source\repos\Uppgift-Gissa-tal\Gissa tal\Gissa tal\obj\Debug\Gissa tal.pdb

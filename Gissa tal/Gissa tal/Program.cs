@@ -10,21 +10,27 @@ namespace Gissa_tal
     {
         static void Main(string[] args)
         {
-            int tal; //det talet som slumpas fram
-            int räknare; //räknare för att hålla koll på antalet gissningar som har gjorts
-            Console.WriteLine("Ange ett heltal mellan 1 och 100"); //fråga till användaren
-            string strgissning = Console.ReadLine();
-            int gissning = Convert.ToInt32(strgissning);
+            int räknare = 0;
+            int gissning = 0;
+            Random randomerare = new Random();
+            int tal = randomerare.Next(1, 100);
 
-            if (gissning < tal) //om gissningen är mindre än det slumpade talet
-                Console.WriteLine("Gissningen är för låg");
+            while (gissning != tal)
+            {
+                Console.WriteLine("Ange ett heltal mellan 1 och 100");
+                string strgissning = Console.ReadLine();
+                gissning = Convert.ToInt32(strgissning);
+                räknare++;
 
-            if (gissning > tal) //om gissningen är högre än det slumpade talet
-                Console.WriteLine("Gissningen är för hög");
-
-            if (gissning == tal) //om gissningen är lika med det slumpade talet
+                if (gissning < tal)
+                    Console.WriteLine("Gissningen är för låg");
+                if (gissning > tal)
+                    Console.WriteLine("Gissningen är för hög");
+            } 
+            if (gissning == tal)
                 Console.WriteLine("Gissningen är rätt!");
-
+                Console.WriteLine("Antal gissningar: " + räknare);
+                Console.ReadLine();
         }
     }
 }
